@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCG Store</title>
+    <link rel="Icon" href="./img/icons8-card-64.png">
+    <style>
+        *{
+           font-family:sans-serif;
+           color: white;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            background-image:url(./img/Background.jpg);
+            display: flex;
+            flex-direction: column;            
+        }
+        header{
+            display: grid;
+            width: auto;
+            grid-template-columns: 20% auto;
+            grid-template-rows: 20rem;
+            border-radius: 1.5rem;
+            padding-right: 2.5rem;
+            background-color: black;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        header img{
+            max-width: fit-content;
+            height: 100%;
+            border-top-left-radius: 1.5rem;
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
+        }
+        .menu li h3{
+            font-size: 3.2rem;
+        }
+        .menu li h3:hover{
+            color:blue;
+        }
+        .content{
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+        }
+        aside{
+            background: white;
+            margin-top: 2rem;
+            border-radius: 1.5rem;
+        }
+        aside h3{
+            color: black;
+            font-size: 3.0rem;
+            margin-left: 1.5rem;
+        }
+        aside ul li{
+            color:black;
+            font-size: 2.5rem;
+        }
+        aside ul li:hover{
+            color:blueviolet;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 2rem;
+        }
+        .viewer figure{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            border-radius: 1rem;
+            background: blueviolet;
+        }
+        .viewer figure img{
+            display: flex;
+            justify-content: center;
+            width: 20rem;
+            height: 30rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0.5rem;
+            border-radius: 0.8rem;
+        }
+        .viewer figcaption{
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: center;
+            font-size: 2.0rem;
+        }
+        footer{
+            display: flex;
+            justify-content: end;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./img/Logo store.jpg" alt="Store logo">
+        <nav>
+            <ul class="menu">
+                <li><h3>Home</h3></li>
+                <li><h3>Cards</h3>
+                <li><h3>About us</h3></li>
+                <li><h3>Contact</h3></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+    <aside>
+        <h3>Cards</h3>
+        <ul>
+            <li>CardsGame1</li>
+            <li>CardsGame2</li>
+            <li>CardsGame3</li>
+            <li>CardsGame4</li>
+            <li>CardsGame5</li>
+        </ul>
+    </aside>
+    <main class="viewer">
+        <figure class="img1">
+            <img src="./img/erik-mclean-p1Xx215ooiM-unsplash-min.jpg" alt="First image">
+            <Figcaption>Description1</Figcaption>
+            <button>Buy</button>
+        </figure>
+        <figure class="img2">
+            <img src="./img/glen-carrie-DKxlqtCQBJk-unsplash-min.jpg" alt="Second image">
+            <Figcaption>Description2</Figcaption>
+            <button>Buy</button>
+        </figure>
+        <figure class="img3">
+            <img src="./img/marouane-k5TTwdGGvLk-unsplash-min.jpg" alt="Third image">
+            <Figcaption>Description3</Figcaption>
+            <button>Buy</button>
+        </figure><figure class="img4">
+            <img src="./img/matt-flores-NpgN1gXdlSw-unsplash-min.jpg" alt="Fourth image">
+            <Figcaption>Description4</Figcaption>
+            <button>Buy</button>
+        </figure><figure class="img5">
+            <img src="./img/sven-ciupka-8H3cWNtBpdQ-unsplash-min.jpg" alt="Fifth image">
+            <Figcaption>Description5</Figcaption>
+            <button>Buy</button>
+        </figure><figure class="img6">
+            <img src="./img/sven-ciupka-WbosA2fQy_o-unsplash-min.jpg" alt="Sixth image">
+            <Figcaption>Description6</Figcaption>
+            <button>Buy</button>
+        </figure><figure class="img7">
+            <img src="./img/pexels-kendall-hoopes-1796794.jpg" alt="Seventh image">
+            <Figcaption>Description7</Figcaption>
+            <button>Buy</button>
+        </figure><figure class="img8">
+            <img src="./img/pexels-oleg-magni-1831113.jpg" alt="Eight image">
+            <Figcaption>Description8</Figcaption>
+            <button>Buy</button>
+        </figure><figure class="img9">
+            <img src="./img/pexels-oleg-magni-1831116(1).jpg" alt="Nineth image">
+            <Figcaption>Description9</Figcaption>
+            <button>Buy</button>
+        </figure>
+    </main>
+    </div>
+    <footer>
+        Store test by Sapi96
+    </footer>
+</body>
+</html>
