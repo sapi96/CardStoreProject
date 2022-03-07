@@ -55,6 +55,7 @@
  }
  .sidemenu{
      list-style: none;
+     text-decoration: none;
  }
  .sidemenu li a p{
      color:black;
