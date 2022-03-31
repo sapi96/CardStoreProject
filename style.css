@@ -30,8 +30,11 @@
      display: flex;
      flex-direction: row;
      justify-content: space-between;
-     align-content: center;
      list-style: none;
+ }
+ .menu li{
+     display: flex;
+     margin-top: 40px;
  }
  .menu li h3{
      font-size: 3.2rem;
